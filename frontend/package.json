@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:check": "bash ../scripts/check-env.sh frontend && vite",
+    "check:env": "bash ../scripts/check-env.sh frontend",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
